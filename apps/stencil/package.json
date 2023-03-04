@@ -16,7 +16,7 @@
     "@types/jest": "^27.0.3",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5",
-    "puppeteer": "^10.0.0",
+    "puppeteer": "^19.0.0",
     "stencil-particles": "^2.9.3"
   },
   "license": "MIT"
