@@ -7,9 +7,9 @@
 
 ## Properties
 
-| Property | Attribute | Description     | Type     | Default       |
-| -------- | --------- | --------------- | -------- | ------------- |
-| `id`     | `id`      | The instance id | `string` | `tsparticles` |
+| Property | Attribute | Description | Type     | Default     |
+| -------- | --------- | ----------- | -------- | ----------- |
+| `id`     | `id`      | The id      | `string` | `undefined` |
 
 
 ----------------------------------------------

@@ -6,6 +6,7 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 import { MatchResults } from "@stencil-community/router";
+export { MatchResults } from "@stencil-community/router";
 export namespace Components {
     interface AppHome {
     }
