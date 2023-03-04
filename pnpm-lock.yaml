@@ -17,7 +17,7 @@ importers:
   apps/stencil:
     specifiers:
       '@stencil-community/router': ^1.0.2
-      '@stencil/core': 2.22.2
+      '@stencil/core': 3.1.0
       '@types/jest': ^27.0.3
       jest: ^27.4.5
       jest-cli: ^27.4.5
@@ -25,7 +25,7 @@ importers:
       stencil-particles: ^2.9.3
     devDependencies:
       '@stencil-community/router': 1.0.2
-      '@stencil/core': 2.22.2
+      '@stencil/core': 3.1.0
       '@types/jest': 27.5.2
       jest: 27.5.1
       jest-cli: 27.5.1
@@ -1309,17 +1309,10 @@ packages:
       '@stencil/state-tunnel': 1.0.1
     dev: true
 
-  /@stencil/core/2.22.2:
-    resolution: {integrity: sha512-r+vbxsGNcBaV1VDOYW25lv4QfXTlNoIb5GpUX7rZ+cr59yqYCZC5tlV+IzX6YgHKW62ulCc9M3RYtTfHtNbNNw==}
-    engines: {node: '>=12.10.0', npm: '>=6.0.0'}
-    hasBin: true
-    dev: true
-
   /@stencil/core/3.1.0:
     resolution: {integrity: sha512-Zfe+evaw9m2L/HkTO97Hu8go2ThXrObyWkVqa7V3HjTnq+8TUd/nwld9PC0bOItC/eyMRXsWHdEDCpJAZ1tEVQ==}
     engines: {node: '>=14.10.0', npm: '>=6.0.0'}
     hasBin: true
-    dev: false
 
   /@stencil/state-tunnel/1.0.1:
     resolution: {integrity: sha512-DYG8uROgL9hkjVTCtCfRBb0d3FwpiFB0muRrNZQ2X1Qo5hxMuNNji76/ILddqeq0AfgkKCW82xrMPDpy+rNIhQ==}
