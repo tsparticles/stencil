@@ -40,8 +40,10 @@ importers:
       jest: ^29.0.0
       jest-cli: ^29.0.0
       puppeteer: ^19.5.2
+      tsparticles-engine: ^2.9.3
     dependencies:
       '@stencil/core': 3.1.0
+      tsparticles-engine: 2.9.3
     devDependencies:
       '@types/jest': 29.4.0
       '@types/node': 18.14.6
@@ -5666,6 +5668,11 @@ packages:
 
   /tslib/2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+    dev: false
+
+  /tsparticles-engine/2.9.3:
+    resolution: {integrity: sha512-iAD8LyRH//kx10fDMm6AfQV6dRHs1ZacUUHqVwfutcqM4x1IV2ygpjk0X87LKCnBxYeIMG78+tlxXpnpwUccOg==}
+    requiresBuild: true
     dev: false
 
   /type-detect/4.0.8:
