@@ -4,7 +4,6 @@
     "apps/*",
     "components/*"
   ],
-  "useWorkspaces": true,
   "version": "indipendent",
   "npmClient": "pnpm",
   "conventionalCommits": true,

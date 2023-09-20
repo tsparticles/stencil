@@ -5,12 +5,18 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { Container, Engine, ISourceOptions } from "tsparticles-engine";
+export { Container, Engine, ISourceOptions } from "tsparticles-engine";
 export namespace Components {
     interface StencilParticles {
         /**
           * The id
          */
         "id": string;
+        "options": ISourceOptions;
+        "particlesInit": (engine: Engine) => Promise<void>;
+        "particlesLoaded": (container: Container) => Promise<void>;
+        "url": string;
     }
 }
 declare global {
@@ -30,6 +36,10 @@ declare namespace LocalJSX {
           * The id
          */
         "id"?: string;
+        "options"?: ISourceOptions;
+        "particlesInit"?: (engine: Engine) => Promise<void>;
+        "particlesLoaded"?: (container: Container) => Promise<void>;
+        "url"?: string;
     }
     interface IntrinsicElements {
         "stencil-particles": StencilParticles;
